@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Josefin+Sans:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro&display=swap');
+
+.footer {
+  background-color: #131b23;
+  color: #ffffff;
+  padding: 40px 0;
+  font-family: DM Sans;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  display: block;
+  margin-right: 20px;
+}
+
+.institute p {
+  font-size: 16px;
+  margin: 5px 0;
+  font-family: 'DM Sans';
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px;
+}
+
+.contact li {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: 'DM Sans';
+}
+
+.contact svg {
+  margin-right: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+  font-family: 'DM Sans';
+}
+
+.column {
+  flex: 1;
+  text-align: left;
+}
+
+.column h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column li {
+  margin-bottom: 10px;
+}
+
+.column a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.column a:hover {
+  color: #b5b5b5;
+  text-decoration: underline;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: #888888;
+  margin: 30px 0;
+}
+
+.copyRight {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.animation {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.column a:hover {
+  color: #b5b5b5;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .center {
+    align-items: center;
+  }
+
+  .links {
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .column {
+    text-align: center;
+  }
+}
+
+
+
+
